@@ -37,6 +37,34 @@ let pregunta2 = prompt ("Que dia es hoy?\n 1-Jueves \n 2-Lunes \n 3-Domingo \n 4
         Data += 1;
         alert("Punto para Data!!");  
     };
+let pregunta3 = prompt ("Que dia es hoy?\n 1-Jueves \n 2-Lunes \n 3-Domingo \n 4-Martes");
+    if (pregunta3 == 1){
+        Frontend += 1;
+        alert("Punto para Frontend!");
+    } else if(pregunta3 == 2){
+        Backend += 1;
+        alert("Punto para Backend!!");
+    } else if(pregunta3 == 3){
+        Mobile += 1;
+        alert("Punto para Mobile!!");
+    } else if(pregunta3 == 4){
+        Data += 1;
+        alert("Punto para Data!!");  
+    };
+let pregunta4 = prompt ("Que dia es hoy?\n 1-Jueves \n 2-Lunes \n 3-Domingo \n 4-Martes");
+    if (pregunta4 == 1){
+        Frontend += 1;
+        alert("Punto para Frontend!");
+    } else if(pregunta4 == 2){
+        Backend += 1;
+        alert("Punto para Backend!!");
+    } else if(pregunta4 == 3){
+        Mobile += 1;
+        alert("Punto para Mobile!!");
+    } else if(pregunta4 == 4){
+        Data += 1;
+        alert("Punto para Data!!");  
+    };
     if (Mobile > Data || Mobile > Frontend || Mobile > Backend){
         alert(`${nombre} perteneces a la casa de los Mobile!!`);
     } else if(Data > Frontend || Data > Backend || Data > Mobile){
